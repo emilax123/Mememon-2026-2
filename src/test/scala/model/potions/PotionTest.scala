@@ -1,6 +1,8 @@
 package cl.uchile.dcc
 package model.potions
 
-class PotionTest extends munit.FunSuite {
+import munit.FunSuite
+
+class PotionTest extends FunSuite {
   
 }

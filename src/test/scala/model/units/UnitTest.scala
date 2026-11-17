@@ -1,7 +1,9 @@
 package cl.uchile.dcc
 package model.units
 
-class UnitTest extends munit.FunSuite {
+import munit.FunSuite
+
+class UnitTest extends FunSuite {
   test("El enemigo tiene los atributos correctos"){
     val enemy = new Enemy("Enemigo", 100, 15, 10, 5)
 

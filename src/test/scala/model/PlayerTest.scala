@@ -1,4 +1,6 @@
 package cl.uchile.dcc
 package model
 
-class PlayerTest extends munit.FunSuite
+import munit.FunSuite
+
+class PlayerTest extends FunSuite
